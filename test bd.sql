@@ -1,0 +1,113 @@
+DROP TABLE IF EXISTS user;
+CREATE SCHEMA IF NOT EXISTS test;
+CREATE TABLE IF NOT EXISTS `user` (
+  `id`          INT(8)      NOT NULL AUTO_INCREMENT,
+  `name`        VARCHAR(25) NOT NULL,
+  `age`         BOOLEAN     NOT NULL,
+  `isadmin`     BIT         NOT NULL,
+  `createddate` TIMESTAMP   NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  PRIMARY KEY (`id`)
+)
+  ENGINE = InnoDB
+  DEFAULT CHARSET = utf8;
+
+INSERT INTO user (name, age, isadmin) VALUES ("Margery Carty", 15, 0);
+INSERT INTO user (name, age, isadmin) VALUES ("Scott Thacker", 23, 0);
+INSERT INTO user (name, age, isadmin) VALUES ("Narcisa Reavis", 33, 0);
+INSERT INTO user (name, age, isadmin) VALUES ("Shenika Timmons", 53, 0);
+INSERT INTO user (name, age, isadmin) VALUES ("Bob Heald", 50, 0);
+INSERT INTO user (name, age, isadmin) VALUES ("Maple Stang", 33, 0);
+INSERT INTO user (name, age, isadmin) VALUES ("Jayme Manganaro", 50, 0);
+INSERT INTO user (name, age, isadmin) VALUES ("Leonore Kinloch", 51, 0);
+INSERT INTO user (name, age, isadmin) VALUES ("Heath Kniffen", 55, 0);
+INSERT INTO user (name, age, isadmin) VALUES ("Claribel Zamzow", 76, 0);
+INSERT INTO user (name, age, isadmin) VALUES ("Marcos Horton", 34, 0);
+INSERT INTO user (name, age, isadmin) VALUES ("Sherilyn Wexler", 35, 0);
+INSERT INTO user (name, age, isadmin) VALUES ("Joselyn Loman", 76, 0);
+INSERT INTO user (name, age, isadmin) VALUES ("Dirk Baxendale", 14, 0);
+INSERT INTO user (name, age, isadmin) VALUES ("Kristi Carnley", 93, 0);
+INSERT INTO user (name, age, isadmin) VALUES ("Kerri Fewell", 33, 0);
+INSERT INTO user (name, age, isadmin) VALUES ("Leone Engen", 56, 0);
+INSERT INTO user (name, age, isadmin) VALUES ("Dave Guenther", 1, 0);
+INSERT INTO user (name, age, isadmin) VALUES ("Bettye Waldrip", 2, 0);
+INSERT INTO user (name, age, isadmin) VALUES ("Gala Gause", 3, 0);
+INSERT INTO user (name, age, isadmin) VALUES ("Danica Millhouse", 4, 0);
+INSERT INTO user (name, age, isadmin) VALUES ("Becki Abner", 5, 0);
+INSERT INTO user (name, age, isadmin) VALUES ("Damaris Mcilvaine", 6, 0);
+INSERT INTO user (name, age, isadmin) VALUES ("Alexandria Boeck", 7, 0);
+INSERT INTO user (name, age, isadmin) VALUES ("Neil Dufresne", 8, 0);
+INSERT INTO user (name, age, isadmin) VALUES ("Aurelia Schaub", 9, 0);
+INSERT INTO user (name, age, isadmin) VALUES ("America Rainville", 10, 0);
+INSERT INTO user (name, age, isadmin) VALUES ("Odis Tarr", 11, 0);
+INSERT INTO user (name, age, isadmin) VALUES ("Lucas Lords", 12, 0);
+INSERT INTO user (name, age, isadmin) VALUES ("Meagan Broadus", 13, 0);
+INSERT INTO user (name, age, isadmin) VALUES ("Lahoma Zackery", 53, 0);
+INSERT INTO user (name, age, isadmin) VALUES ("Earl Benzel", 53, 0);
+INSERT INTO user (name, age, isadmin) VALUES ("Hildred Muldrow", 53, 0);
+INSERT INTO user (name, age, isadmin) VALUES ("Marilou Kyger", 53, 0);
+INSERT INTO user (name, age, isadmin) VALUES ("Lionel Servin", 53, 0);
+INSERT INTO user (name, age, isadmin) VALUES ("Lydia Karls", 53, 0);
+INSERT INTO user (name, age, isadmin) VALUES ("Roderick Rene", 53, 0);
+INSERT INTO user (name, age, isadmin) VALUES ("Velva Getz", 53, 0);
+INSERT INTO user (name, age, isadmin) VALUES ("Dionna Matsunaga", 53, 0);
+INSERT INTO user (name, age, isadmin) VALUES ("Anya Daub", 53, 0);
+INSERT INTO user (name, age, isadmin) VALUES ("Francene Corsi", 53, 0);
+INSERT INTO user (name, age, isadmin) VALUES ("Albertina Spano", 53, 0);
+INSERT INTO user (name, age, isadmin) VALUES ("Pam Aurand", 53, 0);
+INSERT INTO user (name, age, isadmin) VALUES ("Usha Macko", 53, 0);
+INSERT INTO user (name, age, isadmin) VALUES ("Tennille Cripps", 53, 0);
+INSERT INTO user (name, age, isadmin) VALUES ("Maranda Bombardier", 53, 0);
+INSERT INTO user (name, age, isadmin) VALUES ("Janeen Bigger", 53, 0);
+INSERT INTO user (name, age, isadmin) VALUES ("Marica Weatherly", 53, 0);
+INSERT INTO user (name, age, isadmin) VALUES ("Ramonita Fairchild", 53, 0);
+INSERT INTO user (name, age, isadmin) VALUES ("Juan Ekberg", 53, 0);
+INSERT INTO user (name, age, isadmin) VALUES ("Андреев Якуб Святославови", 53, 0);
+INSERT INTO user (name, age, isadmin) VALUES ("Охота Пантелеймон Иванови", 53, 0);
+INSERT INTO user (name, age, isadmin) VALUES ("Воронина Галина Платоновн", 53, 0);
+INSERT INTO user (name, age, isadmin) VALUES ("Орлова Инга Геннадиевна", 53, 0);
+INSERT INTO user (name, age, isadmin) VALUES ("Русина Мальвина Максимовн", 53, 0);
+INSERT INTO user (name, age, isadmin) VALUES ("Марков Любомир Богданович", 53, 0);
+INSERT INTO user (name, age, isadmin) VALUES ("Новикова Элеонора Валерье", 53, 0);
+INSERT INTO user (name, age, isadmin) VALUES ("Амбарцумян Данила Валенти", 53, 0);
+INSERT INTO user (name, age, isadmin) VALUES ("Тимофеева Пелагея Семенов", 53, 0);
+INSERT INTO user (name, age, isadmin) VALUES ("Воробьёв Ануфри Русланови", 53, 0);
+INSERT INTO user (name, age, isadmin) VALUES ("Назарова Евгения Вячеслав", 53, 0);
+INSERT INTO user (name, age, isadmin) VALUES ("Титова Христина Артемовна", 53, 0);
+INSERT INTO user (name, age, isadmin) VALUES ("Сорокина Марианна Сергеев", 53, 0);
+INSERT INTO user (name, age, isadmin) VALUES ("Чистякова Домна Романовна", 53, 0);
+INSERT INTO user (name, age, isadmin) VALUES ("Чапко Евдокия Валерьевна", 53, 0);
+INSERT INTO user (name, age, isadmin) VALUES ("Литвина Ираида Ефимовна", 53, 0);
+INSERT INTO user (name, age, isadmin) VALUES ("Карпова Анжела Владимиров", 53, 0);
+INSERT INTO user (name, age, isadmin) VALUES ("Качалов Ерофей Кириллович", 53, 0);
+INSERT INTO user (name, age, isadmin) VALUES ("Львов Артемий Геннадьевич", 53, 0);
+INSERT INTO user (name, age, isadmin) VALUES ("Орлов Никандр Валерьевич", 53, 0);
+INSERT INTO user (name, age, isadmin) VALUES ("Щербаков Яков Алексеевич", 53, 0);
+INSERT INTO user (name, age, isadmin) VALUES ("Филиппов Антип Леонидович", 53, 0);
+INSERT INTO user (name, age, isadmin) VALUES ("Григорьева Инесса Егоровн", 53, 0);
+INSERT INTO user (name, age, isadmin) VALUES ("Недашковский Ярослав Егор", 53, 0);
+INSERT INTO user (name, age, isadmin) VALUES ("Баженов Захар Евгеньевич", 53, 0);
+INSERT INTO user (name, age, isadmin) VALUES ("Ушакова Ольга Павловна", 53, 0);
+INSERT INTO user (name, age, isadmin) VALUES ("Белозёров Мефодий Алексее", 53, 0);
+INSERT INTO user (name, age, isadmin) VALUES ("Фомина Галина Кирилловна", 53, 0);
+INSERT INTO user (name, age, isadmin) VALUES ("Гусева Анисья Ильинична", 53, 0);
+INSERT INTO user (name, age, isadmin) VALUES ("Андреев Вячеслав Вячеслав", 53, 0);
+INSERT INTO user (name, age, isadmin) VALUES ("Дмитриева Ия Викторовна", 53, 0);
+INSERT INTO user (name, age, isadmin) VALUES ("Прокофьева Маргарита Яков", 53, 0);
+INSERT INTO user (name, age, isadmin) VALUES ("Антонов Владлен Федорович", 53, 0);
+INSERT INTO user (name, age, isadmin) VALUES ("Тайская Милица Яковлевна", 53, 0);
+INSERT INTO user (name, age, isadmin) VALUES ("Ерофеев Самуил Петрович", 53, 0);
+INSERT INTO user (name, age, isadmin) VALUES ("Ичёткина Дарья Тарасовна", 53, 0);
+INSERT INTO user (name, age, isadmin) VALUES ("Никифоров Афанасий Никола", 53, 0);
+INSERT INTO user (name, age, isadmin) VALUES ("Киселёва Алёна Романовна", 53, 0);
+INSERT INTO user (name, age, isadmin) VALUES ("Веселкова Ираида Максимов", 53, 0);
+INSERT INTO user (name, age, isadmin) VALUES ("Ерофеев Альберт Данилович", 53, 0);
+INSERT INTO user (name, age, isadmin) VALUES ("Титов Ананий Вадимович", 53, 0);
+INSERT INTO user (name, age, isadmin) VALUES ("Попов Ерофей Станиславови", 53, 0);
+INSERT INTO user (name, age, isadmin) VALUES ("Кравченко Гурий Федорович", 53, 0);
+INSERT INTO user (name, age, isadmin) VALUES ("Андреева Викторина Алексе", 53, 0);
+INSERT INTO user (name, age, isadmin) VALUES ("Миронова Агафья Владимиро", 53, 0);
+INSERT INTO user (name, age, isadmin) VALUES ("Романов Артём Дмитриевич", 53, 0);
+INSERT INTO user (name, age, isadmin) VALUES ("Степанова Серафима Ефимов", 53, 0);
+INSERT INTO user (name, age, isadmin) VALUES ("Чапко Мирослав Леонидович", 53, 0);
+INSERT INTO user (name, age, isadmin) VALUES ("Ильин Родион Григорьевич", 53, 0);
+INSERT INTO user (name, age, isadmin) VALUES ("Фомина Ульяна Ильинична", 53, 0);
